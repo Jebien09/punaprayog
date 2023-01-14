@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import './navbar.scss'                                                               
 import { GiHamburgerMenu } from 'react-icons/gi'
 
-function navbar () {
+function Navbar () {
     const [showMediaIcons, setshowMediaIcons] = useState(false);
   return (
     <nav className="navbar">
@@ -38,4 +38,4 @@ function navbar () {
   )
 }
 
-export default navbar
+export default Navbar
